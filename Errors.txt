@@ -1,0 +1,19 @@
+faced error while installing the chromadb
+faced errors while enabling the option of translation 3️⃣ Modify Your PDFChat.py Code to Use deep-translator
+Replace this line:
+
+python
+Copy
+Edit
+from googletrans import Translator
+With:
+
+python
+Copy
+Edit
+from deep_translator import GoogleTranslator
+
+translated_response = translator.translate(generated_text, dest=LANGUAGES[selected_language]).text
+translated_response = GoogleTranslator(source="auto", target=LANGUAGES[selected_language]).translate(generated_text)
+
+source venv/Scripts/activate
