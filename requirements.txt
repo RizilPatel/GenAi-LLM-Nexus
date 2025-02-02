@@ -10,3 +10,4 @@ youtube_transcript_api
 pathlib
 pdfplumber
 langchain-community
+deep-translator
