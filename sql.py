@@ -5,7 +5,7 @@ import streamlit as st
 import os
 import sqlite3
 
-import google.generativeai as genai
+import google.generativeai as genai 
 ## Configure Genai Key
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
