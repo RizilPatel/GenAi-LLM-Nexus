@@ -6,7 +6,7 @@ st.set_page_config(page_title="Ultimate AI-Powered Toolkit", layout="wide")
 # Main app title
 st.title("🚀 Ultimate AI-Powered Toolkit")
 
-# Sidebar with options
+# Sidebar with options 
 st.sidebar.title("Select a Functionality")
 option = st.sidebar.radio("Choose an option:", 
                           ["📄 Multi-PDF Chat", "📊 Database Querying", "🎥 YouTube Transcribe"])
