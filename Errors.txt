@@ -7,7 +7,7 @@ Copy
 Edit
 from googletrans import Translator
 With:
-
+ 
 python
 Copy
 Edit
