@@ -4,7 +4,7 @@ import sqlite3
 # Connecting to sqlite 
 conn = sqlite3.connect('test.db') 
   
-# Creating a cursor object using the  
+# Creating a cursor object using the   
 # cursor() method 
 cursor = conn.cursor() 
   
