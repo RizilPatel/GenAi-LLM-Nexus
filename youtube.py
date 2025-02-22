@@ -12,7 +12,7 @@ prompt = """You are a YouTube video summarizer. You will be taking the transcrip
 and summarizing the entire video and providing the important summary in points
 within 250 words. Please provide the summary of the text given here: """
 
-# Function to extract transcript data from YouTube videos
+# Function to extract transcript data from YouTube videos 
 def extract_transcript_details(youtube_video_url):
     try:
         video_id = youtube_video_url.split("=")[1]
