@@ -11,3 +11,4 @@ pathlib
 pdfplumber
 langchain-community
 deep-translator
+ 
