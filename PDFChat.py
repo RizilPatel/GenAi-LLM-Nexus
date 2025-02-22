@@ -12,7 +12,7 @@ from langchain.prompts import PromptTemplate
 from deep_translator import GoogleTranslator
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load environment variables 
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 
